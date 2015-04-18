@@ -1,2 +1,11 @@
 /* Styles */
 
+.container {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	border-width: 0;
+	border-bottom-width: 1px;
+}
