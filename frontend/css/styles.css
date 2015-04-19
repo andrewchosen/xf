@@ -39,3 +39,48 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	margin: ;
 }
+
+h2.title {
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.categories ul {
+	margin: 0;
+	padding: 0;
+}
+
+.categories ul li {
+	list-style-type: none;
+	border-bottom: 1px solid #ddd;
+}
+
+.categories ul li .glyphicon {
+	position: absolute;
+	right: 2.5%;
+	top: 38%;
+	font-size: 2em;
+}
+
+.categories ul li h3 {
+	font-size: 1.1em;
+	margin: 0;
+	margin-bottom: 2.5%;
+}
+
+.categories ul li p {
+	margin: 0;
+}
+
+.categories a, .categories a:hover {
+	color: #1e1e1e;
+	text-decoration: none;
+}
+
+.categories a {
+	display: block;
+	position: relative;
+	padding: 5%;
+	padding-right: 20%;
+}
