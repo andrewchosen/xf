@@ -143,3 +143,17 @@ footer {
 	text-align: center;
 	padding: 10% 0;
 }
+
+.search-box {
+	position: absolute;
+	right: 100px;
+	display: none;
+}
+
+.search-box .form-control {
+  height: 50px;
+  color: #555;
+  background-color: #eee;
+  border: 0;
+  border-radius: 0px;
+}
