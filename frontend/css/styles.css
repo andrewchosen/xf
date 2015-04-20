@@ -145,7 +145,7 @@ h2.title, h2.subtitle {
 	padding-right: 20%;
 }
 
-.categories .price {
+#product-category .price {
 	display: block;
 	margin-top: 2.5%;
 	font-weight: 700;
@@ -208,4 +208,52 @@ footer {
 	width: 100%;
 	color: #999;
 	margin-top: 5%;
+}
+
+.more-categories .fa-lg{
+	line-height: 1;
+}
+
+.total {
+	font-size: 3em;
+	text-align: center;
+	padding: 5% 0;
+}
+
+.quantity, .flavor {
+	width: 50%;
+	margin: auto;
+	overflow: auto;
+}
+
+.quantity input, .quantity label {
+	width: 50%;
+	float: left;
+}
+
+.quantity label {
+	padding: 6px 12px 6px 0;
+}
+
+.add-to-cart {
+	width: 100%;
+	margin: 10% 0;
+}
+
+.add-to-cart .btn-group-lg>.btn, .btn-lg {
+	display: block;
+	margin: auto;
+	width: 50%;
+	border-radius: 2px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.add-to-cart .fa-lg {
+	vertical-align: 0;
+	padding-right: 2.5%;
+}
+
+.btn-primary {
+  background-color: #1e1e1e;
+  border: 0;
 }

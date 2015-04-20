@@ -27,7 +27,7 @@
 						<form class="search-box">
 							<input type="text" class="form-control" placeholder="Search">
 						</form>
-						<a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+						<a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -36,14 +36,14 @@
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products <span class="caret"></span></a>
 								<ul class="dropdown-menu" role="menu">
-									<li><a href="#">Protein</a></li>
-									<li><a href="#">Post-Workout</a></li>
+									<li><a href="product.html">Protein</a></li>
+									<li><a href="product.html">Post-Workout</a></li>
 								</ul>
 							</li>
-							<li><a href="#">Company Profile</a></li>
-							<li><a href="#">Contact Us</a></li>
+							<li><a href="company.html">Company Profile</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
 							<li class="divider"></li>
-							<li><a href="#">Shopping Cart</a></li>
+							<li><a href="cart.html">Shopping Cart</a></li>
 							<li class="divider"></li>
 							<li><a href="#">Login</a></li>
 						</ul>
@@ -52,7 +52,7 @@
 			</nav>
 		</div>
 	</header>
-	<section id="main">
+	<section id="main product-details">
 		<div class="container">
 			<h1 class="title">Ultra Peptide 2.0</h1>
 			<h2 class="subtitle">Product Details</h2>
@@ -98,11 +98,15 @@
 				  <option>Strawberry</option>
 				</select>
 			</div>
-			<div class="price">
-				$<span class="value">199.99</span>
+			<div class="total">
+				$199.99
 			</div>
 			<div class="quantity">
-				<input type="number" min="1" max="100" value="1" class="form-control" />
+				<label for="qty">Quantity </label>
+				<input type="number" min="1" max="100" value="1"  id="qty" class="form-control" />
+			</div>
+			<div class="add-to-cart">
+				<button type="submit" class="btn btn-lg btn-primary"><i class="fa fa-shopping-cart fa-lg"></i> ADD TO CART</button>
 			</div>
 		</div>
 		<footer>
