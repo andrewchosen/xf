@@ -105,6 +105,10 @@ h2.title {
 	text-decoration: none;
 }
 
+.categories a:hover {
+	background: #f9f9f9;
+}
+
 .categories a {
 	display: block;
 	position: relative;
