@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 	   var total = quantity * price;
 
-	   $("#total_price").val(total); // sets the total price input to the quantity * price
+	   $(".price .value").val(total); // sets the total price input to the quantity * price
 	});
 
 });
