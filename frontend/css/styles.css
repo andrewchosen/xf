@@ -124,3 +124,10 @@ h2.title {
 	display: inline-block;
 	padding: 2.5%;
 }
+
+.copyright {
+	background: #1e1e1e;
+	color: #999;
+	text-align: center;
+	padding: 10% 0;
+}
