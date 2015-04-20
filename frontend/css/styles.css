@@ -105,7 +105,7 @@ h2.title {
 	text-decoration: none;
 }
 
-.categories a:hover {
+.categories a:hover, .categories a:active {
 	background: #f9f9f9;
 }
 
