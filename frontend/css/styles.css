@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 4px;
 	background: #ccc;
 	content: '';
-	margin: 2.5% auto;
+	margin: 16px auto;
 }
 
 h1.title {
@@ -256,4 +256,23 @@ footer {
 .btn-primary {
   background-color: #1e1e1e;
   border: 0;
+}
+
+.cart .cart-table {
+	margin-top: 10%;
+}
+
+.cart .table-responsive {
+	border: 0;
+}
+
+.cart .btn-group-lg>.btn, .btn-lg.continue {
+	font-size: .9em;
+	text-transform: uppercase;
+}
+
+.cart-table th {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
 }
