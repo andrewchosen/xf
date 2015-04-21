@@ -296,3 +296,8 @@ footer {
 	font-weight: 900;
 	padding-right: 5%;
 }
+
+.contact-details p {
+	text-align: center;
+	font-size: 1.2em;
+}
