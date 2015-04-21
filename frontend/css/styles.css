@@ -1,6 +1,11 @@
 /* Styles */
 
 @import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Roboto:900,400italic,400);
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
 
 header {
 	border-bottom: 1px solid #ccc;
@@ -148,7 +153,7 @@ h2.title, h2.subtitle {
 #product-category .price {
 	display: block;
 	margin-top: 2.5%;
-	font-weight: 700;
+	font-weight: 900;
 	font-size: 1.1em;
 }
 
@@ -215,7 +220,7 @@ footer {
 }
 
 .total {
-	font-size: 3em;
+	font-size: 2.5em;
 	text-align: center;
 	padding: 5% 0;
 }
@@ -226,7 +231,7 @@ footer {
 	overflow: auto;
 }
 
-.quantity input, .quantity label {
+.quantity input, .quantity label, .subtotal input, .subtotal label {
 	width: 50%;
 	float: left;
 }
@@ -237,7 +242,7 @@ footer {
 
 .add-to-cart {
 	width: 100%;
-	margin: 10% 0;
+	margin: 5% 0;
 }
 
 .add-to-cart .btn-group-lg>.btn, .btn-lg {
@@ -275,4 +280,19 @@ footer {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+.cart-table .cart-product-name {
+	font-weight: 900;
+}
+
+.cart .subtotal {
+	font-size: 1.8em;
+	text-align: center;
+	padding: 5% 0;
+}
+
+.cart .subtotal small {
+	font-weight: 900;
+	padding-right: 5%;
 }
