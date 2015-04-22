@@ -295,6 +295,13 @@ footer {
 	font-weight: 900;
 }
 
+.cart-table .cart-product-name img {
+	float: left;
+	margin-right: 10px;
+	width: 80px;
+	height: auto;
+}
+
 .cart .subtotal {
 	font-size: 1.8em;
 	text-align: center;
@@ -304,6 +311,14 @@ footer {
 .cart .subtotal small {
 	font-weight: 900;
 	padding-right: 5%;
+}
+
+.cart .remove a {
+	color: #CC3311;
+}
+
+.cart .remove a:hover {
+	color: #991100;
 }
 
 .info {
