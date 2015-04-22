@@ -351,10 +351,6 @@ footer {
 
 @media (min-width: 768px) {
 
-	.container {
-		width: 80%;
-	}
-
 	.navbar-header {
 		min-height: 75px;
 	}
@@ -417,10 +413,23 @@ footer {
 
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
 
 	.carousel-inner .item {
 		max-height: 500px;
+	}
+
+	.carousel-inner .btn-slide {
+		font-size: 1.3em;
+		font-weight: 900;
+	}
+
+	.carousel-caption h3 {
+		font-size: 2em;
+	}
+
+	.carousel-caption p {
+		font-size: 1.2em;
 	}
 
 	.title::after {
@@ -430,6 +439,45 @@ footer {
 
 	.title, .subtitle {
 		text-align: left;
+	}
+
+	h2.title, h2.subtitle {
+		margin-top: 30px;
+	}
+
+	.popular {
+		padding: 0;
+	}
+
+	.popular a {
+		color: #333;
+	}
+
+	.popular a:hover {
+		text-decoration: none;
+	}
+
+	.popular a:hover h3 {
+		text-decoration: underline;
+	}
+
+	.popular a h3 {
+		font-size: 1.2em;
+		margin-top: 0;
+	}
+
+	.copyright, .social {
+		background: none;
+		padding: 0;
+	}
+
+	.copyright {
+		margin-top: 20px;
+	}
+
+	footer {
+		background: #1e1e1e;
+		padding: 30px;
 	}
 
 }
