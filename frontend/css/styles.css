@@ -301,3 +301,27 @@ footer {
 	text-align: center;
 	font-size: 1.2em;
 }
+
+/*Tablet*/
+
+@media (min-width: 600px) {
+
+	.navbar {
+		min-height: 75px;
+	}
+
+	.navbar .navbar-brand>img {
+		height: 50px;
+	}
+
+	.navbar .navbar-toggle {
+		min-width: 75px;
+		min-height: 75px;
+	}
+
+	.navbar .fa-lg {
+		font-size: 1.66666666em;
+		line-height: 1em;
+	}
+
+}
