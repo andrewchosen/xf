@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 h1.title {
 	color: #1e1e1e;
 	font-size: 2em;
-	margin-bottom: 5%;
+	margin: 10% 0;
 }
 
 .motto {
@@ -93,6 +93,7 @@ h1.title {
 h2.title, h2.subtitle {
 	font-size: 1.5em;
 	color: #999;
+	margin-top: 5%;
 }
 
 .categories ul {
@@ -297,6 +298,11 @@ footer {
 	padding-right: 5%;
 }
 
+.info {
+	width: 90%;
+	margin: auto;
+}
+
 .contact-details p {
 	text-align: center;
 	font-size: 1.2em;
@@ -305,6 +311,10 @@ footer {
 /*Tablet*/
 
 @media (min-width: 600px) {
+
+	header {
+		margin-bottom: 0;
+	}
 
 	.navbar {
 		min-height: 75px;
@@ -322,6 +332,104 @@ footer {
 	.navbar .fa-lg {
 		font-size: 1.66666666em;
 		line-height: 1em;
+	}
+
+	h1.title {
+		margin: 5% 0;
+	}
+
+	.motto {
+		font-size: 1.3em;
+		margin-bottom: 5%;
+	}
+
+	.more-categories {
+		width: 60%;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+	.container {
+		width: 80%;
+	}
+
+	.navbar-header {
+		min-height: 75px;
+	}
+	
+	.navbar-nav>li>a {
+		padding: 0 15px;
+		line-height: 40px;
+	}
+
+	.front-header {
+		display: none;
+	}
+
+	.carousel-inner .item {
+		max-height: 400px;
+	}
+
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+		width: 100%;
+		margin-top: -5%;
+	}
+
+	.nav {
+		width: 100%;
+		clear: both;
+		background: #333;
+	}
+
+	.navbar-default .navbar-nav>li>a {
+		color: #f5f5f5;
+	}
+
+	.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+		color: #ccc;
+	}
+
+	.navbar-right {
+		margin: 0;
+	}
+
+	.navbar-collapse {
+		padding: 0;
+	}
+
+	.navbar-brand {
+		height: 100px;
+	}
+
+	.navbar .navbar-brand>img {
+		margin-top: 8px;
+	}
+
+	.social ul li {
+		padding: 1.25%;
+	}
+
+	.copyright {
+		padding: 5% 0;
+	}
+
+}
+
+@media (min-width: 1024px) {
+
+	.carousel-inner .item {
+		max-height: 500px;
+	}
+
+	.title::after {
+		width: 100%;
+		height: 3px;
+	}
+
+	.title, .subtitle {
+		text-align: left;
 	}
 
 }

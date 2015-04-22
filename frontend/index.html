@@ -8,50 +8,60 @@
 <body>
 
 	<header>
-		<div class="container">
-			<nav class="navbar navbar-default">
-			  <div class="container-fluid">
-			    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-			    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			    	<span class="sr-only">Toggle navigation</span>
-			        <i class="fa fa-lg fa-bars"></i>
-			      </button>
-			      <button type="button" class="navbar-toggle collapsed search-button">
-			        <span class="sr-only">Toggle search</span>
-			        <i class="fa fa-lg fa-search"></i>
-			      </button>
-			      <form class="search-box">
-			      	<input type="text" class="form-control" placeholder="Search">
-			      </form>
-			      <a class="navbar-brand" href="index.html"></a>
-			    </div>
-
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav navbar-right">
-			        <li class="dropdown">
-			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products <span class="caret"></span></a>
-			          <ul class="dropdown-menu" role="menu">
-			            <li><a href="category.html">Protein</a></li>
-			            <li><a href="category.html">Post-Workout</a></li>
-			          </ul>
-			        </li>
-			        <li><a href="company.html">Company Profile</a></li>
-			        <li><a href="contact.html">Contact Us</a></li>
-			        <li class="divider"></li>
-			        <li><a href="cart.html">Shopping Cart</a></li>
-			        <li class="divider"></li>
-			        <li><a href="#">Login</a></li>
-			      </ul>
-			    </div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
+		<nav class="navbar navbar-default">
+			<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<i class="fa fa-lg fa-bars"></i>
+						</button>
+						<button type="button" class="navbar-toggle collapsed">
+							<span class="sr-only">Toggle shopping cart</span>
+							<i class="fa fa-lg fa-shopping-cart"></i>
+						</button>
+						<button type="button" class="navbar-toggle collapsed search-button">
+							<span class="sr-only">Toggle search</span>
+							<i class="fa fa-lg fa-search"></i>
+						</button>
+						<form class="search-box">
+							<input type="text" class="form-control" placeholder="Search">
+						</form>
+						<a class="navbar-brand hidden-xs" href="index.html"><img src="images/logo.png"></a>
+					</div>
+			</div>
+			<div class="nav">
+			<div class="container">
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="hidden-xs"><a href="index.html">Home</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Products <span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="product.html">Protein</a></li>
+									<li><a href="product.html">Post-Workout</a></li>
+								</ul>
+							</li>
+							<li><a href="company.html">Company Profile</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li class="divider"></li>
+							<li><a href="cart.html">Shopping Cart</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Login</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div>
+			</div>
 			</nav>
+		</div>
 		</div>
 	</header>
 	<section id="main">
-		<h1 class="title"><img src="images/logo.png"></h1>
-		<div class="motto"><em>Superior Sports Nutrition Supplements</em></div>
+		<div class="front-header">
+			<h1 class="title"><img src="images/logo.png"></h1>
+			<div class="motto"><em>Superior Sports Nutrition Supplements</em></div>
+		</div>
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
