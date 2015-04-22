@@ -371,6 +371,10 @@ footer {
 		min-height: 75px;
 	}
 
+	.info {
+		width: 100%;
+	}
+
 	.navbar-default .navbar-form {
 		margin-top: 32px;
 	}
