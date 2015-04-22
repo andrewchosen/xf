@@ -238,7 +238,6 @@ footer {
 }
 
 .add-to-cart {
-	width: 100%;
 	margin: 5% 0;
 }
 
@@ -382,6 +381,23 @@ footer {
 	.navbar-nav>li>a {
 		padding: 0 15px;
 		line-height: 40px;
+	}
+
+	.cart .cart-table {
+		margin-top: 5%;
+	}
+
+	.add-to-cart {
+		margin: 2.5% 0;
+	}
+
+	.cart .subtotal {
+		text-align: right;
+	}
+
+	.add-to-cart .btn, .back .btn {
+		margin-right: 0;
+		width: 200px;
 	}
 
 	.front-header {
