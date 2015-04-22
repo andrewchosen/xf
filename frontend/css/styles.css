@@ -222,6 +222,16 @@ footer {
 	padding: 5% 0;
 }
 
+#carousel-product {
+	background: #ddd;
+}
+
+#carousel-product .carousel-inner>.item>a>img, #carousel-product .carousel-inner>.item>img {
+	width: 50%;
+	padding: 2.5%;
+	margin: 0 auto;
+}
+
 .quantity, .flavor {
 	width: 50%;
 	margin: auto;
@@ -408,7 +418,7 @@ footer {
 		max-height: 400px;
 	}
 
-	.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+	#carousel-front .carousel-inner>.item>a>img, #carousel-front .carousel-inner>.item>img {
 		width: 100%;
 		margin-top: -5%;
 	}
@@ -492,6 +502,9 @@ footer {
 	h2.title, h2.subtitle {
 		margin-top: 30px;
 	}
+	h2.no-top-margin {
+		margin-top: 0;
+	}
 
 	.popular {
 		padding: 0;
@@ -513,6 +526,33 @@ footer {
 		font-size: 1.2em;
 		margin-top: 0;
 	}
+
+	#carousel-product .carousel-inner>.item>a>img, #carousel-product .carousel-inner>.item>img {
+		width: 100%;
+		padding: 0;
+		margin: 0;	
+	}
+
+	.quantity, .flavor {
+  		width: 100%;
+  	}
+
+  	.quantity {
+  		text-align: right;
+  		width: 200px;
+  	}
+
+  	.quantity input, .quantity label {
+  		width: 50%;
+  	}
+
+  	#product-details .add-to-cart .btn, #product-details .back .btn {
+  		margin: auto;	
+  	}
+
+	.more-categories {
+  		width: 100%;
+  	}
 
 	.copyright, .social {
 		background: none;
