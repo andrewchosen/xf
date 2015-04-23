@@ -72,6 +72,13 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 2.5%;
 }
 
+#carousel-front .btn-slide.btn-lg:hover, #carousel-front .btn-slide.btn-lg:focus {
+	background: #fff;
+	transition-property: background;
+   	transition-duration: .5s;
+   	transition-timing-function: linear;
+}
+
 #carousel-front .carousel-caption {
 	right: 40%;
 	left: 40%;
@@ -399,14 +406,6 @@ footer {
 		width: 200px;
 	}
 
-	.btn-slide.btn-lg:hover {
-		background: #FFF;
-		transition-property: background;
-    	transition-duration: .5s;
-    	transition-timing-function: linear;
-
-	}
-
 	h1.title {
 		margin: 5% 0;
 	}
@@ -543,7 +542,8 @@ footer {
 
 	#carousel-front .carousel-inner .btn-slide {
 		font-size: 1.3em;
-		font-weight: 900;
+		font-weight: 700;
+		letter-spacing: .075em;
 	}
 
 	#carousel-front .carousel-caption {
