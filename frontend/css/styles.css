@@ -450,6 +450,8 @@ footer {
 
 	.navbar-default .navbar-nav>li>a {
 		color: #f5f5f5;
+		font-size: 1.2em;
+		padding: .5em 1em;
 	}
 
 	.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
