@@ -514,6 +514,19 @@ footer {
 		height: 3px;
 	}
 
+	#product-details h1 {
+		text-align: center;
+	}
+
+	#product-details h1.title::after {
+		width: 50px;
+		height: 4px;
+	}
+
+	#product-details h2.title::after {
+		display: none;
+	}
+
 	.title, .subtitle {
 		text-align: left;
 	}
