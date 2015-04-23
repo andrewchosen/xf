@@ -36,7 +36,26 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Oswald', sans-serif;
 }
 
-.carousel-inner .btn-slide {
+#carousel-front .carousel-inner {
+	width: 100%;
+  	height: 400px;
+  	overflow: hidden;
+  	position: relative;
+}
+
+#carousel-front .carousel-inner .item {
+	width: 992px;
+	position: absolute;
+	left: 50% !important;
+	margin-left: -500px;
+}
+
+#carousel-front .carousel-inner .item img {
+	display: block;
+	margin: 0 auto;
+}
+
+#carousel-front .carousel-inner .btn-slide {
 	font-family: 'Oswald', sans-serif;
 	background: #f6f8f9; /* Old browsers */
 	background: -moz-linear-gradient(top,  #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6+ */
@@ -50,6 +69,19 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 1px;
 	color: #1e1e1e;
 	margin-bottom: 2.5%;
+}
+
+#carousel-front .carousel-caption {
+	right: 40%;
+	left: 40%;
+}
+
+#carousel-front .carousel-caption .p-image {
+	display: none;
+}
+
+#carousel-front .carousel-caption .btn-lg {
+	width: 80%;
 }
 
 .title, .subtitle {
@@ -362,7 +394,7 @@ footer {
 	}
 
 	.btn-slide.btn-lg {
-		width: 33.3333333%;
+		width: 200px;
 	}
 
 	.btn-slide.btn-lg:hover {
@@ -433,15 +465,6 @@ footer {
 		display: none;
 	}
 
-	.carousel-inner .item {
-		max-height: 400px;
-	}
-
-	#carousel-front .carousel-inner>.item>a>img, #carousel-front .carousel-inner>.item>img {
-		width: 100%;
-		margin-top: -5%;
-	}
-
 	.nav {
 		width: 100%;
 		clear: both;
@@ -506,20 +529,49 @@ footer {
 		float: right;
 	}
 
-	.carousel-inner .item {
-		max-height: 500px;
+	#carousel-front .carousel-inner .item {
+		width: 1600px;
+		margin-left: -800px;
+		height:400px;
 	}
 
-	.carousel-inner .btn-slide {
+	#carousel-front .carousel-inner .btn-slide {
 		font-size: 1.3em;
 		font-weight: 900;
 	}
 
-	.carousel-caption h3 {
+	#carousel-front .carousel-caption {
+		right: 35%;
+		left: 35%;
+		text-align: left;
+	}
+
+	#carousel-front .carousel-caption .p-image {
+		display: block;
+		width:45%;
+		margin-right:10%;
+		float:left;
+	}
+
+	#carousel-front .carousel-caption .p-image img {
+		width:100%;
+		height:auto;
+	}
+
+	#carousel-front .carousel-caption .desc {
+		width:45%;
+		float:left;
+	}
+
+	#carousel-front .carousel-inner .btn-slide {
+		margin: 15px 0;
+	}
+
+	#carousel-front .carousel-caption h3 {
 		font-size: 2em;
 	}
 
-	.carousel-caption p {
+	#carousel-front .carousel-caption p {
 		font-size: 1.2em;
 	}
 
@@ -621,12 +673,4 @@ footer {
 	.carousel-inner .item {
 		max-height: 600px;
 	}
-
-	.carousel-inner>.item>a>img, .carousel-inner>.item>img {
-		margin-top: -10%;
-	}
-
-	.btn-slide.btn-lg {
-		width: 16.6666666%;
-	}	
 }
