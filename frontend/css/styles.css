@@ -38,9 +38,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #carousel-front .carousel-inner {
 	width: 100%;
-  	height: 400px;
+  	height: 300px;
   	overflow: hidden;
   	position: relative;
+  	background: #000;
 }
 
 #carousel-front .carousel-inner .item {
@@ -74,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 #carousel-front .carousel-caption {
 	right: 40%;
 	left: 40%;
+	bottom: 35%;
 }
 
 #carousel-front .carousel-caption .p-image {
@@ -529,6 +531,10 @@ footer {
 		float: right;
 	}
 
+	#carousel-front .carousel-inner {
+		height: 400px;
+	}
+
 	#carousel-front .carousel-inner .item {
 		width: 1600px;
 		margin-left: -800px;
@@ -543,6 +549,7 @@ footer {
 	#carousel-front .carousel-caption {
 		right: 35%;
 		left: 35%;
+		bottom: 10%;
 		text-align: left;
 	}
 
