@@ -677,6 +677,10 @@ footer {
 
 @media (min-width: 1200px) {
 
+	.container {
+		width: 1024px;
+	}
+	
 	.carousel-inner .item {
 		max-height: 600px;
 	}
