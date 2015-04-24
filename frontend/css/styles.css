@@ -121,6 +121,10 @@ h1.title {
 	margin: 10% 0;
 }
 
+h1.title img {
+	width: 50%;
+}
+
 .motto {
 	text-align: center;
 	margin-bottom: 10%;
