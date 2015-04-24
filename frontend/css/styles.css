@@ -576,10 +576,11 @@ footer {
 
 	#carousel-front .carousel-caption h3 {
 		font-size: 2em;
+		margin-top: 0;
 	}
 
 	#carousel-front .carousel-caption p {
-		font-size: 1.2em;
+		font-size: 1.1em;
 	}
 
 	.title::after {
@@ -680,7 +681,7 @@ footer {
 	.container {
 		width: 1024px;
 	}
-	
+
 	.carousel-inner .item {
 		max-height: 600px;
 	}
