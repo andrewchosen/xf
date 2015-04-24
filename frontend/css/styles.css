@@ -121,8 +121,13 @@ h1.title {
 	margin: 10% 0;
 }
 
-h1.title img {
-	width: 50%;
+h1.logo {
+	text-align: center;
+	margin-top: 7.5%;
+}
+
+h1.logo img {
+	width: 60%;
 }
 
 .motto {
@@ -416,7 +421,7 @@ footer {
 
 	.motto {
 		font-size: 1.3em;
-		margin-bottom: 5%;
+		margin-bottom: 7.5%;
 	}
 
 	.more-categories {
