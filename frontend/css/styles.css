@@ -419,6 +419,16 @@ footer {
 		margin: 5% 0;
 	}
 
+	.top-motto {
+		float: left;
+		margin-top: 25px;
+		margin-left: 14px;
+		padding: 15px 0 15px 20px;
+		border-left: 1px solid #ccc;
+		color: #999;
+		font-style: italic;
+	}
+
 	.motto {
 		font-size: 1.3em;
 		margin-bottom: 7.5%;
